@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: black;
+    }
+    nav{
+        height:50px;
+    }
+    nav > ul{
+        text-align: right;
+        padding-right: 20px;
+        height:50px;
+    }
+    nav>ul>li{
+        text-align: right;
+        padding-right: 20px;
+    }
+    nav > ul >li >a{
+        text-align: right;
+        padding-right: 20px;
+    }
+.dropdown{
+        position:relative;
+        display: inline-block;
+}
+.btn:hover{
+    background-color:rgb(30, 30, 61);
+}
+.btn{
+   background-color:black;
+   font-family: 'Times New Roman', Times, serif;
+   color:white;
+   padding:10px;
+}
+.dropdowncontent{
+   display: none;
+   background-color: white;
+   position:absolute;
+   z-index: 1;
+   min-width: 150px;
+   
+}
+.dropdowncontent a{
+   text-decoration: none;
+   color:grey;
+   display:block;
+   padding:10px;
+}
+.dropdown:hover .dropdowncontent{display:block ;}
+h1{
+    color: white;
+    padding-left:20px;
+}
+.title{
+    background-image: url(./index/whole.jpg);
+    height:200px;
+    font-size: 500%;
+    color:white;
+    text-align: center;
+    font-family: fantasy;
+}
+.aboutus{
+    background-color: white;
+    color:black;
+    margin:60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 220%;
+    text-align: center;
+    height:200px;
+}
+</style>
+</head>
+<body>
+    <h1>Globe Orb</h1>
+    <header>
+        <nav>
+            <ul>
+                <header>
+                    <nav>
+                    <ul>
+                        <div class="dropdown">
+                            <button class="btn">Home</button>
+                            <div class="dropdowncontent">
+                            <a href="./space.html">Home</a>
+                            </div>
+                            </div>
+        
+                        <div class="dropdown">
+                        <button class="btn">Solar System</button>
+                        <div class="dropdowncontent">
+                        <a href="./oursolarsystem.html">Our Solar System</a>
+                        <a href="./sun.html">Sun</a>
+                        <a href="./keiperbelt.html">Kuiper Belt</a>
+                        <a href="./oortcloud.html">Oort Cloud</a>
+                        <a href="./beyond.html">Beyond our Solar System</a>
+                        </div>
+                        </div>
+
+                      
+                                   
+                        <div class="dropdown">
+                            <button class="btn">About Us</button>
+                            <div class="dropdowncontent">
+                          <a href="./aboutusglobeorb.html">Globe Orb</a>
+                            </div>
+                            </div>
+
+            </ul>
+        </nav>
+    </header>
+    <div class="title">
+       <p> About Us-Globe Orb</p>
+    </div>
+    <br><br>
+    <div class="aboutus">
+        <p>We are a subsidy organisation of ReviewMania, that aiming to provide the best experience, best content to our users accross our various platforms.</p>
+        <br><br>
+        <p>We are very thankful to you for being part of the RateMania family.</p>
+    </div>
+</body>
+</html>
